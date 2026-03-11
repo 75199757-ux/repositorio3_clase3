@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Operacion {
 public static void main(String[] args){
 //declarando variables
-double num1,num2,suma,promedio;
+double resta,num1,num2,suma,promedio;
 Scanner lectura=new Scanner(System.in);
 //entrada de datos
 System.out.print("Ingresar numero 1:");
@@ -22,8 +22,10 @@ num2=lectura.nextDouble();
 //proceso de datos
 suma=num1+num2;
 promedio=suma/2;
+resta=num1-num2;
 //salida de datos
 System.out.println("La suma es:"+suma);
 System.out.println("El promedio es:"+promedio);
+System.out.println("La resta es:"+resta);
 }    
 }
